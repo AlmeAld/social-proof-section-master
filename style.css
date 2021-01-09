@@ -33,11 +33,9 @@ body {
   background-image: url(images/bg-pattern-top-desktop.svg),
     url(images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
-  background-size: calc(max(360px, 40%)), calc(max(375px, 65%));
+  background-size: calc(max(360px, 40%)), calc(max(375px, 75%));
   /* background-size: calc(max(375px, 40%)), calc(max(375px, 65%)); */
-  background-position: top left, bottom right;
-  display: flex;
-  flex-direction: column;
+  background-position: 112px -18px, right bottom;
 }
 
 .main {
@@ -48,9 +46,8 @@ body {
   color: var(--dark-magenta-color);
   text-align: center;
   font-weight: 700;
-  font-size: 2.2rem;
-  /* letter-spacing: -0.09rem; */
-  line-height: 2.2rem;
+  font-size: 35.2px;
+  line-height: 35.2px;
   margin-bottom: 35px;
 }
 
@@ -77,10 +74,9 @@ body {
 .content--stars-card span {
   color: var(--dark-magenta-color);
   font-weight: 700;
-  /* margin-left: 32px; */
 }
 .content--cards {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .cards-coments {
@@ -133,27 +129,30 @@ body {
     justify-content: space-between;
   }
   .header-title {
-    width: 36%;
+    max-width: 400px;
   }
   .header-title h1 {
     text-align: left;
-    font-size: 3.2rem;
-    letter-spacing: -0.09rem;
-    line-height: 3.2rem;
+    font-size: 51.2px;
+    letter-spacing: -1.44px;
+    line-height: 51.2px;
+    margin-bottom: 13px;
   }
   .header-title p {
     text-align: left;
   }
 
   .content--stars {
-    width: 50%;
+    min-width: 600px;
   }
 
   .content--stars-card {
     display: flex;
     align-items: center;
     width: 85%;
-    padding: 4% 5% 4% 4%;
+    padding: 15px 0px 15px 20px;
+    margin: 0;
+    margin-bottom: 20px;
   }
   .content--stars-card div {
     margin: 0;
