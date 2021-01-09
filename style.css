@@ -92,7 +92,7 @@ body {
   margin-top: 20px;
 }
 .cards-coment-text {
-  line-height: 22px;
+  line-height: 25px;
   color: var(--magenta-color);
   font-weight: 500;
 }
