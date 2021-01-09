@@ -34,7 +34,6 @@ body {
     url(images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
   background-size: calc(max(360px, 40%)), calc(max(375px, 75%));
-  /* background-size: calc(max(375px, 40%)), calc(max(375px, 65%)); */
   background-position: 112px -18px, right bottom;
 }
 
