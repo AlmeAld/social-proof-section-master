@@ -91,7 +91,11 @@ body {
   border-radius: 8px;
   margin-top: 20px;
 }
-
+.cards-coment-text {
+  line-height: 22px;
+  color: var(--magenta-color);
+  font-weight: 500;
+}
 .cards--coments-header {
   display: flex;
   height: 60px;
