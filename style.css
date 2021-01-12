@@ -53,10 +53,13 @@ body {
 .header-title p {
   color: var(--magenta-color);
   font-weight: 500;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
   text-align: center;
   line-height: 25px;
   letter-spacing: -1px;
+}
+.content--stars {
+  margin-top: 45px;
 }
 .content--stars-card {
   text-align: center;
@@ -87,9 +90,9 @@ body {
   margin-top: 20px;
 }
 .cards-coment-text {
-  line-height: 25px;
-  color: var(--magenta-color);
-  font-weight: 500;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 13px;
 }
 .cards--coments-header {
   display: flex;
@@ -99,10 +102,10 @@ body {
 }
 
 .cards--coments-header img {
-  border-radius: 25px;
-  width: 50px;
-  height: 50px;
-  margin-right: 30px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
 }
 
 .coments--header-name {
@@ -116,7 +119,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .wrapper {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: auto;
     height: 100vh;
     display: flex;
@@ -142,6 +145,7 @@ body {
   }
 
   .content--stars {
+    margin-top: 0px;
     min-width: 600px;
   }
 
@@ -157,13 +161,13 @@ body {
     margin: 0;
     margin-right: 25px;
   }
-  .c1 {
+  .content--stars div:nth-child(1) {
     margin-left: 30px;
   }
-  .c2 {
+  .content--stars div:nth-child(2) {
     margin-left: 60px;
   }
-  .c3 {
+  .content--stars div:nth-child(3) {
     margin-left: 90px;
   }
 
@@ -178,14 +182,14 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .b1 {
+  .content--cards div:nth-child(1) {
     margin-bottom: 40px;
   }
-  .b2 {
+  .content--cards div:nth-child(2) {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .b3 {
+  .content--cards div:nth-child(3) {
     margin-top: 40px;
   }
 }
